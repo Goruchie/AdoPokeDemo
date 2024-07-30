@@ -16,5 +16,11 @@ namespace Poketest
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            PokeServices service = new PokeServices();
+            dgvPokemons.DataSource = service.list();
+        }
     }
 }
