@@ -14,5 +14,9 @@ namespace Poketest
 
         public string UrlImage { get; set; }
 
+        public Element Type { get; set; }
+
+        public Element Weakness { get; set; }
+
     }
 }

@@ -23,6 +23,7 @@ namespace Poketest
             PokeServices service = new PokeServices();
             pokeList = service.list();
             dgvPokemons.DataSource = pokeList;
+            dgvPokemons.Columns["UrlImage"].Visible = false;
             loadImage(pokeList[0].UrlImage);
         }
 
