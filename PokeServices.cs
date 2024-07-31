@@ -20,7 +20,7 @@ namespace Poketest
             {
                 conection.ConnectionString = "server=.\\SQLEXPRESS; database=POKEDEX_DB; integrated security=true";
                 sqlCommand.CommandType = System.Data.CommandType.Text;
-                sqlCommand.CommandText = "Select Numero, Nombre, Descripcion from POKEMONS";
+                sqlCommand.CommandText = "Select Numero, Nombre, Descripcion, UrlImagen from POKEMONS";
                 sqlCommand.Connection = conection;
 
                 conection.Open();
@@ -32,6 +32,7 @@ namespace Poketest
                     aux.Number = reader.GetInt32(0);
                     aux.Name = (string)reader["Nombre"];
                     aux.Description = (string)reader["Descripcion"];
+                    aux.UrlImage = (string)reader["UrlImagen"];
 
                     list.Add(aux);
                 }
