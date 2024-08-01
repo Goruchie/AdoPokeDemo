@@ -47,8 +47,7 @@ namespace Poketest
             {
 
                 throw ex;
-            }
-            return list;
+            }            
         }
     }
 }
