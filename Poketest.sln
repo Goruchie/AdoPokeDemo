@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poketest", "Poketest.csproj", "{A0BC112F-34FC-4BE9-B558-DD31FCDE5953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "..\domain\domain.csproj", "{B16F9320-DB76-4659-A5E4-C1E99F755517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "..\service\service.csproj", "{D1564CAC-B597-444C-BEB8-7D53AC4D2962}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A0BC112F-34FC-4BE9-B558-DD31FCDE5953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0BC112F-34FC-4BE9-B558-DD31FCDE5953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0BC112F-34FC-4BE9-B558-DD31FCDE5953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16F9320-DB76-4659-A5E4-C1E99F755517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16F9320-DB76-4659-A5E4-C1E99F755517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16F9320-DB76-4659-A5E4-C1E99F755517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16F9320-DB76-4659-A5E4-C1E99F755517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1564CAC-B597-444C-BEB8-7D53AC4D2962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1564CAC-B597-444C-BEB8-7D53AC4D2962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1564CAC-B597-444C-BEB8-7D53AC4D2962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1564CAC-B597-444C-BEB8-7D53AC4D2962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
